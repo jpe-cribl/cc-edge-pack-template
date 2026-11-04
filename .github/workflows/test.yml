@@ -27,6 +27,7 @@ jobs:
     name: Pack tests
     needs: test
     if: always()
+    timeout-minutes: 2
     runs-on: ubuntu-latest
     steps:
       - name: Require the pack test jobs to pass
