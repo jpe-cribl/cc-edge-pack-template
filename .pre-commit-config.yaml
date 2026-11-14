@@ -33,7 +33,7 @@ repos:
       - id: detect-private-key
 
   - repo: https://github.com/DavidAnson/markdownlint-cli2
-    rev: v0.24.0
+    rev: v0.24.1
     hooks:
       - id: markdownlint-cli2
         # Picks up .markdownlint-cli2.yaml from the repo root (the
@@ -41,7 +41,7 @@ repos:
         exclude: ^CHANGELOG\.md$
 
   - repo: https://github.com/woodruffw/zizmor-pre-commit
-    rev: v1.31.1
+    rev: v1.32.0
     hooks:
       - id: zizmor
         files: ^\.github/workflows/.*\.ya?ml$
