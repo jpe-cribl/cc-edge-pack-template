@@ -26,4 +26,4 @@ jobs:
     if: github.ref_type == 'tag' && github.event.repository.is_template == false
     permissions:
       contents: write
-    uses: jpe-cribl/.github/.github/workflows/cribl-pack-release.yml@145f3d1eb3128097381108a0b572897f76d2c122 # main
+    uses: jpe-cribl/.github/.github/workflows/cribl-pack-release.yml@b3afc02c82fc45f249be08fd742fa87917674aed # main
